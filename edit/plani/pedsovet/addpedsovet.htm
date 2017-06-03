@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html>
+<form action=addpedsovet.php method=post>
+
+<CENTER><P><FONT SIZE=6>Введіть інформацію:</FONT></CENTER>
+<br><br>
+
+<br><br><table width="100$">
+<tr><td>Розділ:</td><td> 
+<SELECT name=rada>
+<OPTION value='Педагогічна рада'>1. Педагогічна рада
+<OPTION value='Адміністративна рада'>2. Адміністративна рада
+<OPTION value='Методична рада'>3. Методична рада
+</SELECT> </td></tr>
+<tr><td>Номер протоколу:</td><td><input type=text name=protokol></td></tr>
+<tr><td>Дата (РРРР-ММ-ЧЧ):</td><td><input type=text name=data></td></tr>
+<tr><td>Тема:</td><td><TEXTAREA name=tema rows="8" cols="90"></textarea></td></tr>
+<tr><td>Постанова:</td><td><TEXTAREA name=postanova rows="8" cols="90"></textarea></td></tr>
+<tr><td>Контроль виконання:</td><td><TEXTAREA name=kontrol rows="8" cols="90"></textarea></td></tr>
+<tr><td>Примітка:</td><td><TEXTAREA name=primitka rows="8" cols="90"></textarea></td></tr>
+</table>
+<input type=submit value='Внести інформацію'>
+</form>
+</html>
